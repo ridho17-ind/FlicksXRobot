@@ -27,7 +27,7 @@ def afk(bot: Bot, update: Update):
 
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
-    update.effective_message.reply_text("{} is now away!".format(fname))
+    update.effective_message.reply_text("{} Is Now Away, Waiting Until Back!".format(fname))
 
     
 @run_async
