@@ -76,7 +76,7 @@ async def photo(client: Client, message: Message):
     try:
         await client.send_message(
             chat_id=message.chat.id,
-            text="Select your required mode from below!ㅤㅤ",
+            text="Select Your Required Mode In Below!ㅤㅤ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -87,7 +87,7 @@ async def photo(client: Client, message: Message):
                     [
                         InlineKeyboardButton(text="🟡 CIRCLE", callback_data="circle"),
                         InlineKeyboardButton(text="🩸 BLUR", callback_data="blur"),
-                        InlineKeyboardButton(text="🌌 BORDER", callback_data="border"),
+                        InlineKeyboardButton(text="🏞️ BORDER", callback_data="border"),
                     ],
                     [
                         InlineKeyboardButton(text="🎉 STICKER", callback_data="stick"),
@@ -97,7 +97,7 @@ async def photo(client: Client, message: Message):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🌇 SEPIA", callback_data="sepia"),
+                        InlineKeyboardButton(text="🏜️ SEPIA", callback_data="sepia"),
                         InlineKeyboardButton(text="✏️ PENCIL", callback_data="pencil"),
                         InlineKeyboardButton(text="🐶 CARTOON", callback_data="cartoon"),
                     ],
@@ -109,7 +109,7 @@ async def photo(client: Client, message: Message):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="❌ CLOSE", callback_data="close_e"),
+                        InlineKeyboardButton(text="❌ Close Editing ❌", callback_data="close_e"),
                     ],
                 ]
             ),
