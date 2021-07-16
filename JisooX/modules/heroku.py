@@ -158,11 +158,11 @@ async def dyno_usage(dyno):
 
     return await die.edit(
         "**Dyno Usage**:\n\n"
-        f" -> `Dyno usage for`  **{HEROKU_APP_NAME}**:\n"
+        f" ➠ `Dyno Usage For`  **{HEROKU_APP_NAME}**:\n"
         f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
-        " -> `Dyno hours quota remaining this month`:\n"
+        " ➠ `Dyno Hours Quota Remaining This Month`:\n"
         f"     •  `{hours}`**h**  `{minutes}`**m**  "
         f"**|**  [`{percentage}`**%**]"
     )
@@ -183,7 +183,7 @@ async def _(dyno):
         return await dyno.reply(
             " Please make sure your Heroku API Key, Your App name are configured correctly in the heroku"
         )
-    v = await dyno.reply("Getting Logs....")
+    v = await dyno.reply("**Getting Logs....**")
     with open("logs.txt", "w") as log:
         log.write(app.get_log())
     await v.edit("Got the logs wait a sec")
@@ -191,7 +191,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="Jisoo LOGS.",
+        caption="Flicks Bot Logs.",
     )
 
     await asyncio.sleep(5)
@@ -221,7 +221,7 @@ async def _(event):
         pass
     else:
         return
-    await event.edit("**Restarted Jisoo**")
+    await event.edit("**Restarted Flicks Manager**")
     try:
         herokuHelper = HerokuHelper(HEROKU_APP_NAME, HEROKU_API_KEY)
         herokuHelper.restart()
