@@ -79,7 +79,7 @@ def steal(bot: Bot, update: Update, args: List[str]):
         elif msg.reply_to_message.sticker and msg.reply_to_message.sticker.emoji:
             sticker_emoji = msg.reply_to_message.sticker.emoji
         else:
-            sticker_emoji = "🤔"
+            sticker_emoji = "🤤"
         try:
             im = Image.open(stolensticker)
             maxsize = (512, 512)
@@ -104,7 +104,7 @@ def steal(bot: Bot, update: Update, args: List[str]):
                 im.save(stolensticker, "PNG")
             bot.add_sticker_to_set(user_id=user.id, name=packname,
                                     png_sticker=open('stolensticker.png', 'rb'), emojis=sticker_emoji)
-            msg.reply_text(f"Sticker successfully added to [pack](t.me/addstickers/{packname})" +
+            msg.reply_text(f"Sticker Successfully Added To [pack](t.me/addstickers/{packname})" +
                             f"\nEmoji is: {sticker_emoji}", parse_mode=ParseMode.MARKDOWN)
         except OSError as e:
             msg.reply_text("I can only steal images, dude.")
@@ -124,7 +124,7 @@ def steal(bot: Bot, update: Update, args: List[str]):
             elif e.message == "Stickers_too_much":
                 msg.reply_text("Max packsize reached.")
             elif e.message == "Internal Server Error: sticker set not found (500)":
-                msg.reply_text("Sticker successfully added to [pack](t.me/addstickers/%s)" % packname + "\n"
+                msg.reply_text("Sticker Successfully Added To [pack](t.me/addstickers/%s)" % packname + "\n"
                             "Emoji is:" + " " + sticker_emoji, parse_mode=ParseMode.MARKDOWN)
             print(e)
     elif args:
@@ -172,7 +172,7 @@ def steal(bot: Bot, update: Update, args: List[str]):
                 im.save(stolensticker, "PNG")
                 bot.add_sticker_to_set(user_id=user.id, name=packname,
                                         png_sticker=open('stolensticker.png', 'rb'), emojis=sticker_emoji)
-                msg.reply_text("Sticker successfully added to [pack](t.me/addstickers/%s)" % packname + "\n" +
+                msg.reply_text("Sticker Successfully Added To [pack](t.me/addstickers/%s)" % packname + "\n" +
                             "Emoji is:" + " " + sticker_emoji, parse_mode=ParseMode.MARKDOWN)
             elif e.message == "Invalid sticker emojis":
                 msg.reply_text("Invalid emoji(s).")
