@@ -35,17 +35,15 @@ _Maintained by_ [{}](tg://user?id={})
 
 HELP_STRINGS = """
 **Hey there! My name is** *{}*.
-**I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
 *Main* commands available:**
- ➠ **- /start: Start The Bot.**
- ➠ **- /help: PM's You This Message.**
- ➠ **- /help <module name>: PM's You.**
- ➠ **- /settings:**
-   ✷ **- In PM: For All Supported Modules.**
-   ✷ **- In A Group: For Settings Groups.**
+ ➠ *- /start: Start The Bot.*
+ ➠ *- /help: PM's You This Message.*
+ ➠ *- /help <module name>: PM's You.*
+ ➠ *- /settings:*
+   ✷ *- In PM: For All Supported Modules.*
+   ✷ *- In A Group: For Settings Groups.*
 {}
-**And The Following:**
+*And The Following:*
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
