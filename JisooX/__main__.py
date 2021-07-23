@@ -34,7 +34,7 @@ _Maintained by_ [{}](tg://user?id={})
 
 
 HELP_STRINGS = """
-*Hey There! My Name Is* *{}*.
+*Hey There!! My Name Is* *{}*.
 *MAIN* *Commands Available:*
  ➠ *- /start: Start The Bot.*
  ➠ *- /help: PM's You This Message.*
