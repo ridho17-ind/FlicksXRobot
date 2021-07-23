@@ -111,11 +111,11 @@ __help__ = """
 
 __mod_name__ = "Inline"
 __help__ = """
- ==>> **INLINE BOT SERVICE OF @JisooXRobot** <<==
+ ==>> **INLINE BOT SERVICE OF FLICKS BOT** <<==
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
    >> Syntax <<
-@JisooXRobot [command] [query]
+Flicks [command] [query]
 
    >> Commands Available <<
 - **alive** - __Check Bot's Stats.__
