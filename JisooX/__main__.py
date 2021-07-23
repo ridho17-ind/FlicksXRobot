@@ -34,14 +34,14 @@ _Maintained by_ [{}](tg://user?id={})
 
 
 HELP_STRINGS = """
-**Hey there! My name is** *{}*.
-*Main* commands available:**
+*Hey There! My Name Is* *{}*.
+*MAIN* *Commands Available:*
  ➠ *- /start: Start The Bot.*
  ➠ *- /help: PM's You This Message.*
  ➠ *- /help <module name>: PM's You.*
  ➠ *- /settings:*
-   ✷ *- In PM: For All Supported Modules.*
-   ✷ *- In A Group: For Settings Groups.*
+   *❒ - In PM: For All Supported Modules.*
+   *❒ - In A Group: For Settings Groups.*
 {}
 *And The Following:*
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
