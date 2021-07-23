@@ -66,12 +66,12 @@ class AioHttp:
 
 __mod_name__ = "Inline"
 __help__ = """
- <b> INLINE BOT SERVICE OF @JisooXRobot </b> 
+ <b> INLINE BOT SERVICE OF FLICKS MANAGER </b> 
  
 <i> I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.</i>
 
 <b>Syntax</b>
-   @JisooXRobot [command] [query]
+   Flicks [command] [query]
 
 <b> Commands Available</b>
 - alive - Check Bot's Stats.
