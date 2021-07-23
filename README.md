@@ -13,7 +13,7 @@
   <img src="https://telegra.ph/file/cc480b3dbb80abc09ae2b.jpg">
 </p>
 
-### Found Me On Telegram [Flicks Manager](https://t.me/Flicks_Manager_Bot)
+### Found Me On Telegram!! [Flicks Manager](https://t.me/Flicks_Manager_Bot)
 
 
 
