@@ -74,12 +74,12 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/JisooXRobot"),
+        InlineKeyboardButton("Main Bot", url="https://t.me/Flicks_Manager_Bot"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**JisooXRobot:**
+**Flicks_Manager_Bot:**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9.6`
