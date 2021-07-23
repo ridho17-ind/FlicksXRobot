@@ -72,25 +72,25 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1669508271"
+         "value": "1712864821"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "Feri"
+         "value": "Skyzo"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "1712864821"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
          "required": false,
-         "value": "-xyz"
+         "value": "V7NS1NBFEL4X24L6"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
-         "value": "-xyz"
+         "value": "2AS711XS1O9B"
       },
        "LASTFM_API_KEY": {
          "description": "Required for lastfm plugin",
@@ -98,11 +98,11 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/c4c66449d0dfcf5f24b50.jpg"    
+         "value": "https://telegra.ph/file/94f9c01ea40706764ce13.jpg"    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
-         "value": "-xyz"
+         "value": "5ed2fcba931692ec6bd0a8a3f8d84936"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
@@ -121,12 +121,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "1712864821"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "1712864821"
       },
      
       "TOKEN": {
@@ -147,7 +147,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1669508271 1841175154"
+         "value": "1712864821"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -157,7 +157,7 @@
       "LYDIA_API": {
          "description": "Put here lydia API.",
          "required": false,
-         "value": " " 
+         "value": "632740cd2395c73b58275b54ff57a02b607a9f8a4bbc0e37a24e7349a098f95eaa6569e22e2d90093e9c1a9cc253380a218bfc2b7af2e407494502f6fb76f97e" 
       }
    },
    "keywords": [
@@ -179,5 +179,5 @@
    "name": "JisooX",
    "repository": "https://github.com/ridho17-ind/JisooX",
    "success_url": "https://telegram.dog/Flicks_Manager_Bot",
-   "logo": "https://telegra.ph/file/c4c66449d0dfcf5f24b50.jpg"
+   "logo": "https://telegra.ph/file/94f9c01ea40706764ce13.jpg"
 }
