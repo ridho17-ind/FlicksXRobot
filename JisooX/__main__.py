@@ -277,8 +277,8 @@ def get_help(bot: Bot, update: Update):
 
         update.effective_message.reply_text("*Pm Me To Get The List Of Commands.*",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="Help Here",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="Contact Creator",url="https://t.me/Sadroomsinfo/83")]]))
+                                                [[InlineKeyboardButton(text="ʜᴇʟᴘ ʜᴇʀᴇ",url="t.me/{}?start=help".format(bot.username))],  
+                                                [InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴄʀᴇᴀᴛᴏʀ",url="https://t.me/XFLSkyzo")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
@@ -399,7 +399,7 @@ def get_settings(bot: Bot, update: Update):
             text = "Click here to get this chat's settings, as well as yours."
             msg.reply_text(text,
                            reply_markup=InlineKeyboardMarkup(
-                               [[InlineKeyboardButton(text="⚙️Settings⚙️",
+                               [[InlineKeyboardButton(text="⚙️ ꜱᴇᴛᴛɪɴɢꜱ ⚙️",
                                                       url="t.me/{}?start=stngs_{}".format(
                                                           bot.username, chat.id))]]))
         else:
