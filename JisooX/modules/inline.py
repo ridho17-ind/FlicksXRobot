@@ -109,15 +109,15 @@ __help__ = """
 - pokedex [TEXT]: Pokemon Search
 """
 
-__mod_name__ = "Inline"
+__mod_name__ = "INLINE"
 __help__ = """
- ==>> **INLINE BOT SERVICE OF FLICKS BOT** <<==
+ 🦁 **INLINE BOT SERVICE OF FLICKS** 🦁
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
 
-   >> Syntax <<
-Flicks [command] [query]
+   **👑 Syntax 👑**
+__Flicks [command] [query]__
 
-   >> Commands Available <<
+   **🛍️ Commands Available 🛍️**
 - **alive** - __Check Bot's Stats.__
 - **yt [query]** - __Youtube Search.__
 - **tr [LANGUAGE_CODE] [QUERY]** - __Translate Text.__
@@ -907,7 +907,7 @@ async def inline_query_handler(client, query):
                 + app_link
                 + "'>View in Play Store</a>"
             )
-            app_details += "\n\n===> @JisooSupport <==="
+            app_details += "\n\n===> @SadRoomsInfo <==="
             rip.append(
                 InlineQueryResultArticle(
                     title=f"Datails of {app_name}",
