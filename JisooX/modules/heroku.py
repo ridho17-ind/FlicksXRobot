@@ -159,11 +159,11 @@ async def dyno_usage(dyno):
     return await die.edit(
         "**Dyno Usage**:\n\n"
         f" ➠ `Dyno Usage For`  **{HEROKU_APP_NAME}**:\n"
-        f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
+        f"     ❒  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
         " ➠ `Dyno Hours Quota Remaining This Month`:\n"
-        f"     •  `{hours}`**h**  `{minutes}`**m**  "
+        f"     ❒  `{hours}`**h**  `{minutes}`**m**  "
         f"**|**  [`{percentage}`**%**]"
     )
 
@@ -191,7 +191,7 @@ async def _(dyno):
         dyno.chat_id,
         "logs.txt",
         reply_to=dyno.id,
-        caption="Flicks Bot Logs.",
+        caption="Flicks Bot Logs, By @SadRoomsInfo",
     )
 
     await asyncio.sleep(5)
