@@ -39,6 +39,7 @@ HELP_STRINGS = """
  ➠ *- /start: Start The Bot.*
  ➠ *- /help: PM's You This Message.*
  ➠ *- /help <module name>: PM's You.*
+ ➠ *- /source: To Get Repo*
  ➠ *- /settings:*
    *❒ - In PM: For All Supported Modules.*
    *❒ - In A Group: For Settings Groups.*
