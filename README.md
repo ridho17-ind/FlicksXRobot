@@ -8,10 +8,10 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/cc480b3dbb80abc09ae2b.jpg">
+  <img src="https://telegra.ph/file/4bb90f1c2e3eef976b76f.jpg">
 </p>
 
-### Found Me On Telegram!! [Flicks Manager](https://t.me/Flicks_Manager_Bot)
+#### Found Me On Telegram!! [Flicks Bot](https://t.me/Flicks_Manager_Bot)
 
 
 
@@ -20,8 +20,11 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ridho17-ind/FlicksXRobot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
-### Credit : [JisooXRobot](https://github.com/FeriEXP/JisooXRobot)
+#### Credit : [JisooXRobot](https://github.com/FeriEXP/JisooXRobot)
 
-## Thanks To [Skyzo](https://github.com/ridho17-ind) And [Feri](https://github.com/FeriEXP)
+#### Thanks To :
+ [Skyzo](https://github.com/ridho17-ind),
+ [Feri](https://github.com/FeriEXP)
 
-## Updates Channel [Click Here](https://t.me/SadRoomsInfo)
+#### Channel [Here](https://t.me/SadRoomsInfo) Groups [Here](https://t.me/SADROOMSCHAT)
+
