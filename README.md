@@ -14,7 +14,7 @@
 #### Found Me On Telegram!! [Flicks Bot](https://t.me/Flicks_Manager_Bot)
 ### Channel Updates
 `
-Klik Tombol Di Bawah Ini!`
+Click The Button Below!!`
    <a href="https://t.me/SadRoomsInfo"><img src="https://img.shields.io/badge/Channel%20%3F-Here-green?&style=flat-square?&logo=telegram" width=165px></a></p>
 
 
