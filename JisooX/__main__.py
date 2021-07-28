@@ -276,7 +276,7 @@ def get_help(bot: Bot, update: Update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("*Pm Me To Get The List Of Commands.*",
+        update.effective_message.reply_text("Pm Me To Get The List Of Commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="ʜᴇʟᴘ ʜᴇʀᴇ",url="t.me/{}?start=help".format(bot.username))],  
                                                 [InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ᴄʀᴇᴀᴛᴏʀ",url="https://t.me/XFLSkyzo")]]))
