@@ -23,8 +23,8 @@
 #### Credit : [JisooXRobot](https://github.com/FeriEXP/JisooXRobot)
 
 #### Thanks To :
- [Skyzo](https://github.com/ridho17-ind),
- [Feri](https://github.com/FeriEXP)
+ [ꜱᴋʏᴢᴏ](https://github.com/ridho17-ind),
+ [ꜰᴇʀɪ](https://github.com/FeriEXP)
 
 #### Channel [Here](https://t.me/SadRoomsInfo) Groups [Here](https://t.me/SADROOMSCHAT)
 
