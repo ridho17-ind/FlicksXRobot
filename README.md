@@ -22,7 +22,6 @@
 
 ### Credit : [JisooXRobot](https://github.com/FeriEXP/JisooXRobot)
 
-## Thanks To
-   [Skyzo](https://github.com/ridho17-ind)
-    And
-   [Feri](https://github.com/FeriEXP)
+## Thanks To [Skyzo](https://github.com/ridho17-ind) And [Feri](https://github.com/FeriEXP)
+
+## Updates Channel [Click Here](https://t.me/SadRoomsInfo)
