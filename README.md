@@ -12,6 +12,11 @@
 </p>
 
 #### Found Me On Telegram!! [Flicks Bot](https://t.me/Flicks_Manager_Bot)
+### Channel Updates
+`
+Klik Tombol Di Bawah Ini!`
+   <a href="https://t.me/SadRoomsInfo"><img src="https://img.shields.io/badge/Channel%20%3F-Here-green?&style=flat-square?&logo=telegram" width=165px></a></p>
+
 
 
 
@@ -26,5 +31,5 @@
  [ꜱᴋʏᴢᴏ](https://github.com/ridho17-ind),
  [ꜰᴇʀɪ](https://github.com/FeriEXP)
 
-#### Channel [Here](https://t.me/SadRoomsInfo) Groups [Here](https://t.me/SADROOMSCHAT)
+#### Groups Support? [Here](https://t.me/SADROOMSCHAT)
 
