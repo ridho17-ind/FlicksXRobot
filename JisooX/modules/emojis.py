@@ -126,12 +126,16 @@ love_siren = [
 
 
 hack_you = [
-            "Looking for WhatsApp databases in targeted person...",
-            " User online: True\nTelegram access: True\nRead Storage: True ",
-            "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]",    
+            "Looking Forr WhatsApp Databases In Targeted Person...",
+            "User online: True\nTelegram access: True\nRead Storage: True ",
+            "Hacking... 00.00%\n[░░░░░░░░░░░░░░░░░░░░]",
+            "Hacking... 10.74%\n[█░░░░░░░░░░░░░░░░░░░]",
+            "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]",
+            "Hacking... 40.80%\n[█████░░░░░░░░░░░░░░░]", 
+            "Hacking... 60.55%\n[█████████░░░░░░░░░░░]",
             "Hacking... 86.21%\n[███████████████░░░░░]",
             "Hacking... 93.50%\n[█████████████████░░░]",
-            "hacking....  100%\n[████████████████████]",
+            "Hacking...  100%\n[████████████████████]",
 ]
 
 
@@ -310,7 +314,7 @@ def hack(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(hack_you[x%5])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('successful hacked')
+    msg.edit_text('Successful Hacked, And Claim In My Database!')
 
 
 
