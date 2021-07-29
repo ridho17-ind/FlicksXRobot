@@ -20,13 +20,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./JisooX/resources/Twitter.jpeg')
+    img = Image.open('./JisooX/resources/IMG_20210730_063558_689.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./JisooX/resources/Chopsic.otf", 40)
+    font = ImageFont.truetype("./JisooX/resources/Chopsic.otf", 47)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -36,7 +36,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=3, stroke_fill="white")
     fname2 = "LogoByFlicks.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By Flicks")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By@Flicks_Manager_Bot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
