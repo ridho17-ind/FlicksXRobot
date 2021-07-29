@@ -17,7 +17,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('Creating Your Logo...Wait!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./JisooX/resources/IMG_20210730_063558_689.jpg')
