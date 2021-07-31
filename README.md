@@ -35,6 +35,9 @@ Click The Button Below!!`
 
 #### Credit : [JisooXRobot](https://github.com/FeriEXP/JisooXRobot)
 
+## Repo Stats
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=ridho17-ind&repo=FlicksXRobot&theme=nightowl)
+
 #### Thanks To :
  [ꜱᴋʏᴢᴏ](https://github.com/ridho17-ind),
  [ꜰᴇʀɪ](https://github.com/FeriEXP)
